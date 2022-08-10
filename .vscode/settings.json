@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    ".husky": true,
+    "node_modules": true,
+    "dist": true,
+    "public": true,
+    ".dccache": true,
+    ".env": true,
+    ".gitignore": true,
+    ".editorconfig": true,
+    ".prettierignore": true,
+    ".prettierrc.json": true,
+    "index.html": true,
+    "tsconfig.json": true,
+    "tsconfig.node.json": true,
+    "manifest.json": true,
+    "vite.config.ts": true,
+    "yarn.lock": true,
+    "README.md": true,
+    "**/*.d.ts": true,
+  }
+}
