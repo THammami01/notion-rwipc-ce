@@ -17,10 +17,6 @@ body.custom-dark-theme {
   background-color: #1d2630;
 }
 
-.modal-header {
-  border-radius: 2rem;
-}
-
 h1 {
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
@@ -42,8 +38,13 @@ h1 img {
 }
 
 .modal-header {
+  border-radius: 2rem;
   align-items: center;
   border-bottom: 0.5px solid #dadada;
+}
+
+body.custom-dark-theme .modal-header {
+  border-bottom: 0.5px solid #403c3c;
 }
 
 .modal-content {
@@ -54,6 +55,10 @@ h1 img {
   border-top: 0.5px solid #dadada;
   height: 50px;
   width: 100%;
+}
+
+body.custom-dark-theme .modal-icons {
+  border-top: 0.5px solid #403c3c;
 }
 
 .logo {
