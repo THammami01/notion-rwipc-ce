@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Notion Recursive Words-in-Page Counter",
-  "short_name": "notion-recursive-words-in-page-counter",
+  "short_name": "notion-rwipc",
   "version": "1.0.0",
   "description": "Count the number of words in a Notion page and its sub-pages recursively.",
   "permissions": ["activeTab"],

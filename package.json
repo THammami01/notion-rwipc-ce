@@ -1,5 +1,5 @@
 {
-  "name": "minimal-react-vite-starter",
+  "name": "notion-rwipc",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,6 +20,7 @@
     "yarn": "1.22.11"
   },
   "dependencies": {
+    "@notionhq/client": "^2.1.1",
     "@reduxjs/toolkit": "^1.8.3",
     "i18next": "^21.8.16",
     "i18next-browser-languagedetector": "^6.1.4",
@@ -47,6 +48,6 @@
   "description": "Count the number of words in a Notion page and its sub-pages recursively.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/THammami01/notion-recursive-words-in-page-counter"
+    "url": "https://github.com/THammami01/notion-rwipc"
   }
 }

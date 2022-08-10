@@ -1,0 +1,190 @@
+@import url('https://fonts.googlepis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
+
+/* Modal Structure */
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 300px;
+  transition: color 200ms, background-color 300ms;
+}
+
+body.custom-dark-theme {
+  color: white;
+  background-color: #1d2630;
+}
+
+.modal-header {
+  border-radius: 2rem;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  /* color: #2f5876; */
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  outline: 0;
+  text-decoration: none;
+}
+
+h1 img {
+  width: 30px;
+  transform: translateY(3px);
+}
+
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+
+.modal-content {
+  padding: 0 22px;
+}
+
+.modal-icons {
+  border-top: 0.5px solid #dadada;
+  height: 50px;
+  width: 100%;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+
+.version {
+  color: #444;
+  font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+
+.flex:hover {
+  opacity: 0.4;
+}
+
+.flex .fa {
+  font-size: 40px;
+  color: #2f5876;
+}
+
+.custom-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.custom-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.custom-form div input {
+  width: 250px;
+}
+
+.custom-form div button {
+  width: 100px;
+}
+
+input,
+button {
+  font-family: 'Roboto Mono', monospace;
+  padding: 0.25rem;
+}
+
+button {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.last-row {
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+
+.last-row img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.last-row .imgs {
+  flex-direction: row;
+}
+
+/* LOADING SPINNER */
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  transform: scale(0.3) translateX(0px) translateY(-55px);
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #000;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+body.custom-dark-theme .lds-facebook div {
+  background: #fff;
+}
+
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+#loading-spinner {
+  display: none;
+}
